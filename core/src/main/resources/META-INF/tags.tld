@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" version="2.1">
+    <tlib-version>1.0.0-SNAPSHOT</tlib-version>
+    <short-name>hp</short-name>
+    <uri>http://www.bootcamp.com/taglibs</uri>
+    <tag>
+        <name>concatenation</name>
+        <tag-class>com.ig.bootcamp.core.model.CustomTags</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>sentence1</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>sentence2</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+
+    </tag>
+    <tag>
+        <name>isEdit</name>
+        <tag-class>com.ig.bootcamp.core.model.IsEditMode</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+</taglib>

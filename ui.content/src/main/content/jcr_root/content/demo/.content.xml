@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="/etc/cloudservices/facebookconnect/demo"
+        cq:lastModified="{Date}2015-06-08T14:17:55.656+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/cq-bootcamp/template/indexTemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="demo"
+        sling:resourceType="/apps/cq-bootcamp/components/page/index">
+        <hero-carousel-container-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <logincomponent
+                jcr:created="{Date}2015-06-08T14:05:58.808+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-06-08T14:05:58.808+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq-bootcamp/components/content/body/loginComponent"/>
+        </hero-carousel-container-parsys>
+        <parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <logincomponent
+                jcr:created="{Date}2015-06-08T14:17:55.653+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-06-08T14:17:55.653+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq-bootcamp/components/content/body/loginComponent"/>
+        </parsys>
+    </jcr:content>
+</jcr:root>
